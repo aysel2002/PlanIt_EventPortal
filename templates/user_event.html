@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CHMSC Events</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/admin_event.css' %}">
+</head>
+<body class="bg-primary">
+<div class="container-fluid header text-center bg-success">
+ <h2 style="color: white;">CHRIST COLLEGE Events</h2>
+</div>
+
+<div class="container box bg-success">
+  <h2 class="bg-danger" style="color: white;">Event Details</h2>
+
+  <table>
+    <tr class="bg-danger" style="color: white;">
+      <td>No</td>
+      <td>Event name</td>
+      <td>Date</td>
+      <td>Time</td>
+      <td>Duration(hours)</td>
+    </tr>
+
+    {% for e in event %}
+      <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>{{ e.name}}</td>
+        <td>{{ e.date }}</td>
+        <td>{{ e.time }}</td>
+        <td>{{ e.duration }}</td>
+
+      </tr>
+    {% empty %}
+      <tr>
+        <td colspan="5" align="center">No events</td>
+      </tr>
+    {% endfor %}
+
+  </table>
+
+  <div class="footer">
+    <a href="{% url 'scmapp:user_home' %}"><button>Back</button></a>
+  </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
+
+</body>
+</html>

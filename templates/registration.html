@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Registration| Welcome</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{% static "css/registration.css" %}">
+  <script type="text/javascript" src="{% static "js/main.js" %}"></script>
+</head>
+<body class="bg-success">
+
+<div class="container-fluid header text-center bg-primary">
+  <h1 style="color: white;">CHRIST COLLEGE<BR> Events Management System</h1>
+</div>
+
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-0 btn-bar" onclick="navigation(event)">
+      <a href="#" class="myactive" id="registration">Registration</a>
+      <a href="#" class="" id="login">Login</a>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-lg-6 box bg-danger" style="display:block;">
+      <!-- <span style="font-size:26px;">Registration</span> -->
+      <center><h1 class="bg-primary" style="color: white; margin-right: 30px;"> Registration</h1></center>
+      <span style="font-size:18px;">{{ status }}</span>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="inputbox">
+            <form action="{% url 'scmapp:test' %}" method="post">
+              {% csrf_token %}
+              Username<br>
+              <input type="text" name="uname" autocomplete="off" required><br>
+
+              E-Mail<br>
+              <input type="text" name="email" autocomplete="off" required><br>
+
+                Mobile<br>
+              <input type="text" name="mobile" minlength="10" maxlength="10" autocomplete="off" pattern="[6-9]{1}[0-9]{9}" title="Numbers only" required><br>
+
+
+              Gender<br>
+              <input type="radio" name="gender" value="Male"> Male
+              <input type="radio" name="gender" value="Female"> Female<br>
+
+              Password<br>
+              <input type="password" name="password" minlength="8" autocomplete="off" required><br>
+
+              Re-enter Password<br>
+              <input type="password" name="repassword" minlength="8" autocomplete="off" required>
+
+              <input type="submit" value="Submit" name="submit" style="margin:0 25% 0 25%;">
+            </form>
+          </div>
+        </div>
+    </div>
+<!--    <a href="#" onclick="navigation(event)" id="loginLink" style="color: white;">Already registered? Login</a>-->
+
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-lg-6 loginBox bg-danger" style="display:none;">
+      <center><h1 class="bg-primary" style="color: white; margin-right: 30px;">Login</h1></center>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="inputBox" style="font-size:18px;">
+            <form action="{% url 'scmapp:login_user' %}" method="post">
+              {% csrf_token %}
+              Username<br>
+              <input type="text" name="name" autocomplete="off" required><br>
+
+              Password<br>
+              <input type="password" name="password" minlength="8" autocomplete="off" required>
+
+              <input type="submit" value="Login" name="login" style="margin:0 25% 0 25%;">
+            </form>
+          </div>
+        </div>
+      </div>
+<!--      <a href="#" onclick="navigation(event)" id="regLink" style="color: white;">Not a registered user? Register</a>-->
+      <center ><BR>Not a registered user?
+        <!--<a href="#" onclick="navigation(event)" id="regLink"  style="color: white";>Register</a>--!>
+      <a href="/scm/registration" onclick="navigation(event)" id="regLink" style="color: white";>
+        <input type="submit" value="Register" name="Register" style="margin:0 25% 0 25%";></a></center>
+
+
+    </div>
+  </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
+
+</body>
+
+</html>
