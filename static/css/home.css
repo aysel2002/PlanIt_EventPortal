@@ -1,0 +1,22 @@
+
+
+.btn-bar .homereg{
+  color:blue;
+  margin: 20px 0px 0px 0px;
+  padding: 10px 15px 10px 15px;
+  width: 300px;
+  outline: red;
+  border-radius: 20px;
+  background-color:none;
+  border-left: 2px solid #e0e0e0;
+  border-right: 2px solid #e0e0e0;
+  border-top: 2px solid #e0e0e0;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+
+input[type=submit]:hover,input[type=reset]:hover{
+    color:blue;
+
+}
+

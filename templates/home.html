@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HOME</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "css/home.css" %}">
+    <script type="text/javascript" src="{% static "js/main.js" %}"></script>
+    <style>
+    body {
+  background-image: url('/static/res/collegepic.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+ }
+body {
+    display: table;
+}
+.my-block {
+    text-align: center;
+    vertical-align:middle;
+
+}
+.button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+p {
+background-color:white;
+    }
+.my-block2 {
+    text-align: center;
+
+
+
+}
+</style>
+
+</head>
+
+<body>
+
+    <div class="my-block2">
+        <center> <h1 style="color:black"  ;<BR><br>Events Management System</h1></center>
+<!--        <p>-->
+<!--        <h1>WELCOME</h1>-->
+<!--        </p>-->
+    </div>
+        <br> <br> <br> <br> <br> <br>
+        <div class="my-block">
+            <a href="/scm/registration"><button class="button" ><span>REGISTRATION/<BR>LOGIN</span></button></a>
+     </div>
+
+
+
+</body>
+
+</html>
