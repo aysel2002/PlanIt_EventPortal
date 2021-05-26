@@ -35,7 +35,7 @@ Watch the video here to see the full running Event Portal System Project in Djan
 
 
 ## How it Works ?
-To start creating a Event Portal System in Django, makes sure that you have PyCharm Professional IDE Installed in your computer.
+To start creating a Event Portal System in Django, makes sure that you have PyCharm Community Installed in your computer.
 Thease are the module to add functionality for Event Portal System Project in Django
 
 ### Create template for the homepage in Event Portal System.
