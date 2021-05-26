@@ -42,12 +42,12 @@ Thease are the module to add functionality for Event Portal System Project in Dj
 ### Create template for the homepage in Event Management System.
 In this section, we will learn on how create a templates for the homepage. To start with, add the following code in your user_home.html under the folder of templates.
 
-<img src="https://github.com/aysel2002/PlanIt_EventPortal/blob/backend/files/preview_gif.gif" width="70%" height="70%">
+<img src="https://github.com/aysel2002/PlanIt_EventPortal/blob/backend/files/Code1.gif" width="70%" height="70%">
 
 ### Create template for the login and registration form in Event Management System Project in Django.
 In this section, we will learn on how create a templates for the login and registration form. To start with, add the following code in your registration.html under the folder of templates.
 
-<img src="https://github.com/aysel2002/PlanIt_EventPortal/blob/backend/files/preview_gif.gif" width="70%" height="70%">
+<img src="https://github.com/aysel2002/PlanIt_EventPortal/blob/backend/files/Code2.gif" width="70%" height="70%">
 
 ### Create template for the event in Event Management System Project in Django.
 In this section, we will learn on how create a templates for the event. To start with, add the following code in your user_event.html under the folder of templates.
@@ -74,7 +74,7 @@ Next, after click “new project“, choose “Django” and click.
 ### Step 3: Select file location
 Then, select a file location wherever you want.
 
-#### Step 4: Create application name.
+### Step 4: Create application name.
 After that, name your application.
 
 ### Step 5: Click create.
