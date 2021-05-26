@@ -29,7 +29,9 @@ Events – the user can view all the events.
 ### Tinkerhub : BFH/recyuuYsKO2lFOeKt/2021
 
 ## Link to product walkthrough
-Watch the video here to see the full running Event Portal System Project in Django with Source Code.
+Watch the video here to see the full running Event Portal System Project in Django. 
+
+### __[[Demonstrarion of the Developed Event Portal System : Video Link]](https://www.youtube.com/watch?v=WhnWi4VhLcY&feature=youtu.be)__ 
 
 <img src="https://github.com/aysel2002/PlanIt_EventPortal/blob/backend/files/preview_gif.gif" width="70%" height="70%">
 
