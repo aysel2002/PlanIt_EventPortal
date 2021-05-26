@@ -27,7 +27,7 @@ Events – the user can view all the events.
 
 ## Team Id
 
-### Tinkerhub : BFH/recyuuYsKO2IFOeKt/2021
+### Tinkerhub : BFH/recyuuYsKO2lFOeKt/2021
 
 ## Link to product walkthrough
 Watch the video here to see the full running Event Portal System Project in Django with Source Code.
