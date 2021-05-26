@@ -1,6 +1,13 @@
 ![BFH Banner](https://trello-attachments.s3.amazonaws.com/542e9c6316504d5797afbfb9/542e9c6316504d5797afbfc1/39dee8d993841943b5723510ce663233/Frame_19.png)
-# Project Name
-Long Description about project. This project do that. This project is awesome...
+# Event Portal for your college with Source Code
+This Event Management System Project in Django created using Python Django Framework on the backend and HTML, CSS, and JavaScript on the frontend. It has user authentication features for login/registration, as well as a user dashboard for displaying and registering for events.
+
+<img src="https://github.com/aysel2002/PlanIt_EventPortal/blob/backend/files/website_Home_Page.jpeg" width="80%" height="80%">
+
+A Events Management System is a full-stack Django web application that offers a clean, descriptive, and interactive user interface for viewing and registering for sporting events. It has responsive pages and tabs for viewing, handling, and enrolling in various sports events.
+
+<img src="https://github.com/aysel2002/PlanIt_EventPortal/blob/backend/files/website_Login.jpeg" width="80%" height="80%">
+
 ## Team members
 1. Name [Embed personal github URL]
 2. Name [Embed perosnal github URL]
