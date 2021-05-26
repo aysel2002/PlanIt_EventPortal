@@ -21,7 +21,7 @@ BFH/recyuuYsKO2IFOeKt/2021
 ## Link to product walkthrough
 Watch the video here to see the full running Event Portal System Project in Django with Source Code.
 
-<img src="https://github.com/avinashsen707/AUBOi5-D435-ROS-DOPE/blob/master/results/GIF-200619_202902.gif" width="70%" height="70%">
+<img src="https://github.com/aysel2002/PlanIt_EventPortal/blob/backend/files/preview_gif.gif" width="70%" height="70%">
 
 __[[Demonstrarion of the Developed Event Portal System : Link]](https://www.youtube.com/watch?v=WhnWi4VhLcY&feature=youtu.be)__
 
