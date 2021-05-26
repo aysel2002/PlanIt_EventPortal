@@ -39,17 +39,17 @@ Watch the video here to see the full running Event Portal System Project in Djan
 
 Thease are the module to add functionality for Event Portal System Project in Django
 
-### Create template for the homepage in Event Management System.
+### Create template for the homepage in Event Portal System.
 In this section, we will learn on how create a templates for the homepage. To start with, add the following code in your user_home.html under the folder of templates.
 
 <img src="https://github.com/aysel2002/PlanIt_EventPortal/blob/backend/files/Code1.gif" width="70%" height="70%">
 
-### Create template for the login and registration form in Event Management System Project in Django.
+### Create template for the login and registration form in Event Portal System Project in Django.
 In this section, we will learn on how create a templates for the login and registration form. To start with, add the following code in your registration.html under the folder of templates.
 
 <img src="https://github.com/aysel2002/PlanIt_EventPortal/blob/backend/files/Code2.gif" width="70%" height="70%">
 
-### Create template for the event in Event Management System Project in Django.
+### Create template for the event in Event Portal System Project in Django.
 In this section, we will learn on how create a templates for the event. To start with, add the following code in your user_event.html under the folder of templates.
 
 ### __[[Demonstrarion of the Developed Event Portal System : Video Link]](https://www.youtube.com/watch?v=WhnWi4VhLcY&feature=youtu.be)__ 
@@ -63,7 +63,7 @@ In this section, we will learn on how create a templates for the event. To start
 * JavaScript
 
 ## How to configure
-Here’s the steps on how to create a Event Management System Project in Django
+Here’s the steps on how to create a Event Portal System Project in Django
 
 ### Step 1: Open file.
 First , open “pycharm professional” after that click “file” and click “new project“.
