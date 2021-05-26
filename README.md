@@ -8,7 +8,6 @@ A Events Portal System is a full-stack Django web application that offers a clea
 
 <img src="https://github.com/aysel2002/PlanIt_EventPortal/blob/backend/files/website_Login.jpeg" width="80%" height="80%">
 
-To start creating a Event Portal System in Django, makes sure that you have PyCharm Professional IDE Installed in your computer.
 
 ### Admin Features of Event Portal System in Django
 * Login and Logout – By default the admin need to login first to access the system and also the admin can logout.
@@ -36,7 +35,7 @@ Watch the video here to see the full running Event Portal System Project in Djan
 
 
 ## How it Works ?
-
+To start creating a Event Portal System in Django, makes sure that you have PyCharm Professional IDE Installed in your computer.
 Thease are the module to add functionality for Event Portal System Project in Django
 
 ### Create template for the homepage in Event Portal System.
