@@ -9,8 +9,8 @@ A Events Management System is a full-stack Django web application that offers a 
 <img src="https://github.com/aysel2002/PlanIt_EventPortal/blob/backend/files/website_Login.jpeg" width="80%" height="80%">
 
 ## Team members
-1. Name [Embed personal github URL]
-2. Name [Embed perosnal github URL]
+1. __[Aysel Vargheese](https://github.com/aysel2002)__
+2. __[Anagha Sen](https://github.com/anaghasen)__
 ## Team Id
 Team id here
 ## Link to product walkthrough
