@@ -52,7 +52,7 @@ In this section, we will learn on how create a templates for the login and regis
 ### Create template for the event in Event Management System Project in Django.
 In this section, we will learn on how create a templates for the event. To start with, add the following code in your user_event.html under the folder of templates.
 
-### __[[Demonstrarion of the Developed Event Portal System : Link]](https://www.youtube.com/watch?v=WhnWi4VhLcY&feature=youtu.be)__ 
+### __[[Demonstrarion of the Developed Event Portal System : Video Link]](https://www.youtube.com/watch?v=WhnWi4VhLcY&feature=youtu.be)__ 
 
 ## Libraries used
 
